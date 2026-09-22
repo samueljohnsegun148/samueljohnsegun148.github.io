@@ -1,34 +1,36 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  PhD Researcher in Electrical & Computer Engineering |
+  Assistive Indoor Navigation |
+  AI & Accessibility for Safer Mobility
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg # ADD: your photo to assets/img/profile.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>R.Eng · IEEE · ICOH · MNSE · COREN</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+GPS works beautifully — until you walk through the front door. For people who are blind or have low vision, that's where navigation ends and anxiety begins.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**I'm building the technology that fills that gap.**
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before my PhD, I spent 9+ years in Health, Safety & Environment, keeping people safe in the spaces where they work. That work taught me something that shapes everything I do today: the most dangerous environments aren't always the ones with obvious hazards — they're the ones that quietly exclude the people who need them most.
+
+Now as a PhD Researcher in Electrical & Computer Engineering, I've carried that same mission forward. My research focuses on AI-powered assistive indoor navigation — intelligent systems that detect when a blind user is disoriented in an unfamiliar building, understand their level of distress, and adapt recovery guidance until they reconnect with their environment.
+
+The problem I'm solving isn't just navigation. It's autonomy. When someone who is blind avoids unfamiliar places because there's no reliable way to recover from getting lost — they lose independence. My work gives it back.
+
+I pull insights from fields that don't normally talk to each other — safety engineering, AI, human-centered design, accessibility — because the best solutions live at those intersections. I ask "why" when everyone else accepts the status quo, and "why not" when they say it can't be done.
+
+**I spent years making environments safe for workers. Now I'm making them navigable for the blind. Same mission. Smarter tech.**
+
+I'm actively seeking research collaborations, industry roles, and internship opportunities with organizations working at the intersection of accessibility, health, safety, and AI.

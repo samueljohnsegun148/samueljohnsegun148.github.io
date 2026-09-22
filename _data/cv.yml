@@ -1,189 +1,148 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Segun Samuel
+    - name: Credentials
+      value: R.Eng, COREN
+    - name: Languages
+      value: English # ADD other languages
+    - name: Research Interests
+      value: Assistive Indoor Navigation, AI & Accessibility, Health Safety & Environment
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Electrical & Computer Engineering
+      institution: # ADD: Your university
+      year: Present
+      description:
+        - "Research focus: AI-powered assistive indoor navigation for blind and low-vision users"
+        - "Developing smartphone-based conversational technology for disorientation detection and adaptive recovery guidance"
+        - "NSERC CREATE D-SITE program participant"
+    # ADD more education entries:
+    # - title: MSc in ...
+    #   institution: ...
+    #   year: 20XX
+    #   description:
+    #     - ...
+    # - title: BSc in ...
+    #   institution: ...
+    #   year: 20XX
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: PhD Researcher
+      institution: # ADD: Your university / lab name
+      year: Present
+      description:
+        - Building AI-powered assistive indoor navigation systems
+        - Developing anxiety-adaptive guidance for disoriented blind users
+        - Investigating indoor wayfinding recovery strategies for vulnerable populations
+    - title: Health, Safety & Environment Professional
+      institution: # ADD: Company/organization name
+      year: # ADD: e.g. 2012 - 2021
+      description:
+        - 9+ years ensuring safe environments for workers
+        - # ADD: Key achievements, projects, responsibilities
+        - # ADD: Specific industries or sectors
+    # ADD more roles as needed:
+    # - title: ...
+    #   institution: ...
+    #   year: ...
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Research Projects
+  type: time_table
+  contents:
+    - title: AI-Powered Assistive Indoor Navigation
+      year: Present
+      description:
+        - Smartphone-based conversational system for blind and low-vision users
+        - Real-time disorientation detection and anxiety-level assessment
+        - Adaptive recovery guidance that responds to user emotional and cognitive state
+        - Addressing the critical gap between outdoor GPS navigation and indoor wayfinding
+    - title: Indoor Wayfinding & Recovery
+      year: Present
+      description:
+        - Investigating why recovery from disorientation — not just prevention — is the critical unsolved problem
+        - Studying how non-trained human assistance often worsens disorientation
+        - Designing systems that restore user confidence and environmental awareness
+    - title: Accessibility as a Safety Imperative
+      year: Present
+      description:
+        - Reframing accessibility as a health and safety issue, not just a convenience
+        - Connecting HSE principles to assistive technology design
+        - Hospital navigation as a patient safety challenge
+    # ADD: Past research projects, HSE projects, etc.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Certifications & Memberships
+  type: list
+  contents:
+    - Registered Engineer (R.Eng) — COREN
+    - Graduate Member — IEEE
+    - Member — International Commission on Occupational Health (ICOH)
+    - Member — Nigerian Society of Engineers (MNSE)
+    # ADD: Other certifications, training programs
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+- title: Training & Workshops
+  type: time_table
+  contents:
+    - title: NSERC CREATE D-SITE Professional Development Training
+      institution: McGill University / Shared Reality Lab
+      year: 2026
+      description:
+        - Professionalism and business communication
+        - Advanced communication and active listening
+        - Business leadership and change management
+        - Personal coaching and career planning
+    # ADD: Other training, workshops, bootcamps
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+- title: Awards & Honors
+  type: time_table
+  contents: []
+    # ADD entries like:
+    # - title: Award Name
+    #   year: 20XX
+    #   institution: Awarding body
+    #   description:
+    #     - Details about the award
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming & Tools
+      items:
+        - # ADD: Python, MATLAB, etc.
+        - # ADD: ML frameworks, tools
+    - title: Research Methods
+      items:
+        - AI/Machine Learning
+        - Human-centered design
+        - User studies with blind and low-vision participants
+        - Indoor positioning systems
+    - title: Domain Expertise
+      items:
+        - Assistive technology
+        - Indoor navigation & wayfinding
+        - Occupational health & safety
+        - Risk assessment & management
+        - UX/UI fundamentals
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+- title: Conferences & Talks
+  type: time_table
+  contents: []
+    # ADD entries like:
+    # - title: "Talk Title"
+    #   institution: Conference Name
+    #   year: 20XX
+    #   description:
+    #     - Brief description
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+- title: Interests
+  type: list
+  contents:
+    - Accessible technology for vulnerable populations
+    - Science communication and storytelling
+    - The intersection of safety engineering and assistive technology
+    - Making research accessible to lay audiences
