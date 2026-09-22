@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: right
-  image: profile.jpg # ADD: your photo to assets/img/profile.jpg
+  image:  # ADD: your photo to assets/img/profile.jpg
   image_circular: false
   more_info: >
     <p>R.Eng · IEEE · ICOH · MNSE · COREN</p>
